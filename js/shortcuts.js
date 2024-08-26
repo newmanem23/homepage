@@ -10,23 +10,20 @@ export default [
     },
   },
   {
-    category: "School",
+    category: "Learning",
     color: "red",
     items: {
-      Outlook: "https://outlook.office365.com/mail/inbox",
-      Canvas: "https://sit.instructure.com",
+      "Odin Project": "https://www.theodinproject.com/dashboard",
+      "Frontend Masters": "https://frontendmasters.com/dashboard/",
       MyStevens: "https://login.stevens.edu/app/UserHome",
     },
   },
   {
-    category: "Work",
+    category: "Sports",
     color: "blue",
     items: {
-      Linkedin: "https://linkedin.com",
-      Twitter: "https://twitter.com",
-      Leetcode: "https://leetcode.com",
-      Handshake: "https://app.joinhandshake.com/stu/postings",
-      Indeed: "https://www.indeed.com/",
+      MgoBlog: "https://mgoblog.com",
+      "247 Victors Club": "https://247sports.com/college/michigan/Board/The-Victors-Club-102410"
     },
   },
   {
