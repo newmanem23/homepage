@@ -85,7 +85,9 @@ const enterHandler = () => {
       if (shortcutDetails) {
         render(`Redirecting to ${shortcutDetails[0]}...`);
         window.location.href = shortcutDetails[1];
-      } else error("yellow", command, "command not found");
+      } else {
+        window.location.href=`https://www.google.com/search?q=${input.innerText}`;
+      }
     }
   } catch (e) {
     error("red", "JS Error", e.message);
