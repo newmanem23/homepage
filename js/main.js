@@ -4,25 +4,70 @@ import { error, render } from "./helpers.js";
 import shortcuts from "./shortcuts.js";
 
 const input = document.querySelector(".text");
-const output = document.getElementById("output");
-// TODO: Add autosuggest / autocomplete functionality
+const block = document.querySelector(".block");
+const suggestion = document.querySelector(".suggestion");
+let suggestionPresent = false;
 
 addEventListener("keydown", function (e) {
-  // TODO: Refactor this to use a div rather than the input. We want to have the cursor block vs. the blinking cursor.
   if (e.key === "Enter") {
     enterHandler();
-    return;
+  } else if (isCharacter(e.key)) {
+    input.innerText += e.key;
+  } else if (e.key === "Backspace") {
+    input.innerText = input.innerText.slice(0, -1);
+  } else if (e.key === "Tab") {
+    e.preventDefault();
+    if (suggestionPresent) {
+      acceptSuggestion();
+      return;
+    }
   }
-  if (isLetter(e.key)) {
-    input.innerText = input.innerText + e.key;
-  }
+  autoSuggest(input.innerText);
 });
 
+const autoSuggest = (searchTerm) => {
+  if (searchTerm === "") {
+    clearAutoSuggest();
+    return;
+  }
+  const results = [];
+  shortcuts.forEach((category) => {
+    Object.keys(category.items).forEach((key) => {
+      if (key.toLowerCase().startsWith(searchTerm.toLowerCase())) {
+        results.push(key.toLowerCase());
+      }
+    });
+  });
+  console.log(results);
+  if (!results[0]) {
+    clearAutoSuggest();
+    return;
+  }
+  const remainingChars = results[0].slice(searchTerm.length);
+  block.innerText = remainingChars[0];
+  suggestion.innerText = remainingChars.slice(1);
+  suggestionPresent = true;
+};
+
+const clearAutoSuggest = () => {
+  console.log("clear autosuggest");
+  block.innerText = " ";
+  suggestion.innerText = "";
+  suggestionPresent = false;
+};
+
+const acceptSuggestion = () => {
+  input.innerText += block.innerText + suggestion.innerText;
+  clearAutoSuggest();
+};
+
 const enterHandler = () => {
+  console.log(suggestionPresent);
+  if (suggestionPresent) acceptSuggestion();
   const userInput = input.innerText.trim().split(" ");
   const command = userInput[0].toLowerCase();
   const options = userInput.slice(1);
-  render(`<span class="green">❯&nbsp;</span>${input.value}`);
+  render(`<span class="green">❯&nbsp;</span>${input.innerText}`);
   try {
     const commandDetails = commands.find((c) =>
       c.name.map((n) => n.toLowerCase()).includes(command),
@@ -35,7 +80,6 @@ const enterHandler = () => {
         .flatMap((c) => Object.entries(c.items))
         .find(([i]) => i.toLowerCase().startsWith(command));
       if (shortcutDetails) {
-        console.log(shortcutDetails);
         render(`Redirecting to ${shortcutDetails[0]}...`);
         window.location.href = shortcutDetails[1];
       } else error("yellow", command, "command not found");
@@ -43,11 +87,11 @@ const enterHandler = () => {
   } catch (e) {
     error("red", "JS Error", e.message);
   }
-  input.value = "";
+  input.innerText = "";
 };
 
-const isLetter = (letter) => {
-  return /^[a-zA-Z]$/.test(letter);
+const isCharacter = (char) => {
+  return /^[\S ]$/.test(char);
 };
 
 window.addEventListener("load", () => {
