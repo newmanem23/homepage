@@ -5,8 +5,10 @@ import shortcuts from "./shortcuts.js";
 
 const input = document.getElementById("input");
 const output = document.getElementById("output");
+// TODO: Add autosuggest / autocomplete functionality
 
 input.addEventListener("keydown", function (e) {
+  // TODO: Refactor this to use a div rather than the input. We want to have the cursor block vs. the blinking cursor.
   if (e.key === "Enter") {
     const userInput = input.value.trim().split(" ");
     const command = userInput[0].toLowerCase();
@@ -14,7 +16,7 @@ input.addEventListener("keydown", function (e) {
     render(`<span class="green">❯&nbsp;</span>${input.value}`);
     try {
       const commandDetails = commands.find((c) =>
-        c.name.map((n) => n.toLowerCase()).includes(command)
+        c.name.map((n) => n.toLowerCase()).includes(command),
       );
       if (commandDetails) {
         if (command === "help") commandDetails.execute(commands);
@@ -23,7 +25,7 @@ input.addEventListener("keydown", function (e) {
         const shortcutDetails = shortcuts
           .flatMap((c) => Object.entries(c.items))
           .find(([i]) => i.toLowerCase().startsWith(command));
-       if (shortcutDetails) {
+        if (shortcutDetails) {
           console.log(shortcutDetails);
           render(`Redirecting to ${shortcutDetails[0]}...`);
           window.location.href = shortcutDetails[1];
