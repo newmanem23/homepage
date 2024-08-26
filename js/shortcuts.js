@@ -12,10 +12,11 @@ export default [
     },
   },
   {
-    category: "Learning",
+    category: "Web Dev",
     color: "yellow",
     items: {
-      "Odin Project": "https://www.theodinproject.com/dashboard",
+      Github: "https://github.com",
+      Github: "https://github.com",
       "Frontend Masters": "https://frontendmasters.com/dashboard/",
     },
   },
@@ -37,7 +38,6 @@ export default [
     items: {
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
-      Github: "https://github.com",
       MgoBlog: "https://mgoblog.com",
       "Victors Club":
         "https://247sports.com/college/michigan/Board/The-Victors-Club-102410",
