@@ -145,3 +145,6 @@ body {
   color: inherit;
   caret-shape: block;
 }
+.block {
+  background-color: var(--fg);
+}
