@@ -99,8 +99,20 @@ const isCharacter = (char) => {
 
 window.addEventListener("load", () => {
   executors.ls();
-  executors.motd();
-  let filenames = ["purple-mountains.jpg"];
+  let filenames = [
+    "creek.jpg",
+    "dusk.jpg",
+    "emerald_coast.jpg",
+    "fall_lake.jpg",
+    "fall_road.jpg",
+    "foggy_forest.jpg",
+    "ireland_sunset.jpg",
+    "mesa.jpg",
+    "mountain_clouds.jpg",
+    "other_purple_mountains.jpg",
+    "purple-mountains.jpg",
+    "purple_mountains.jpg",
+  ];
   let root = document.getElementsByTagName("html")[0];
   root.style.backgroundImage = `url("./backgrounds/${
     filenames[Math.floor(Math.random() * filenames.length)]
