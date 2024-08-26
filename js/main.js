@@ -7,7 +7,6 @@ const input = document.querySelector(".text");
 const block = document.querySelector(".block");
 const suggestion = document.querySelector(".suggestion");
 let suggestionPresent = false;
-
 addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
     enterHandler();
@@ -44,6 +43,10 @@ const autoSuggest = (searchTerm) => {
     return;
   }
   const remainingChars = results[0].slice(searchTerm.length);
+  if (!remainingChars) {
+    clearAutoSuggest();
+    return;
+  }
   block.innerText = remainingChars[0];
   suggestion.innerText = remainingChars.slice(1);
   suggestionPresent = true;
