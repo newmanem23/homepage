@@ -16,7 +16,7 @@ export default [
     color: "yellow",
     items: {
       Github: "https://github.com",
-      Github: "https://github.com",
+      "The Odin Project": "https://www.theodinproject.com/dashboard",
       "Frontend Masters": "https://frontendmasters.com/dashboard/",
     },
   },
