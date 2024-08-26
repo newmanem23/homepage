@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Hack";
-  src: local("Hack Regular"), url("ttf/Hack-Regular.ttf");
+  font-family: "JetBrains Mono";
+  src: local("JetBrainsMono Regular"), url("ttf/JetBrainsMono-Regular.ttf");
 }
 
 :root {
-  --bg: #282828;
+  --bg: #282829;
   --fg: #ebdbb2;
   --black: #282828;
   --blue: #458588;
@@ -18,7 +18,7 @@
 }
 
 html {
-  font-family: "Hack", monospace;
+  font-family: "JetBrains Mono", monospace;
   text-align: center;
   color: var(--fg);
   background-color: var(--gray);
@@ -55,7 +55,7 @@ body {
 }
 
 .shortcuts:first-child {
-  font-weight: 900;
+  font-weight: light;
 }
 
 .shortcut {
@@ -64,7 +64,7 @@ body {
 }
 
 .shortcut:hover {
-  font-weight: bolder;
+  font-weight: bold;
   text-decoration: underline;
 }
 
