@@ -11,7 +11,7 @@ input.addEventListener("keydown", function (e) {
     const userInput = input.value.trim().split(" ");
     const command = userInput[0].toLowerCase();
     const options = userInput.slice(1);
-    render(`<span class="red">$&nbsp;</span>${input.value}`);
+    render(`<span class="green">❯&nbsp;</span>${input.value}`);
     try {
       const commandDetails = commands.find((c) =>
         c.name.map((n) => n.toLowerCase()).includes(command)
@@ -23,7 +23,7 @@ input.addEventListener("keydown", function (e) {
         const shortcutDetails = shortcuts
           .flatMap((c) => Object.entries(c.items))
           .find(([i]) => i.toLowerCase().startsWith(command));
-        if (shortcutDetails) {
+       if (shortcutDetails) {
           console.log(shortcutDetails);
           render(`Redirecting to ${shortcutDetails[0]}...`);
           window.location.href = shortcutDetails[1];
