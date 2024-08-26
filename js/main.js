@@ -19,8 +19,8 @@ addEventListener("keydown", function (e) {
     e.preventDefault();
     if (suggestionPresent) {
       acceptSuggestion();
-      return;
     }
+    return;
   }
   autoSuggest(input.innerText);
 });
