@@ -31,6 +31,8 @@ export default [
       ChatGPT: "https://chatgpt.com/?oai-dm=1",
       "Jira Dashboard":
         "https://phenompeople.atlassian.net/jira/dashboards/19991",
+      "Active Projects": "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
+      "Health Dashboard": "https://docs.google.com/spreadsheets/d/1BA6WtPNZlI2-k6pT3hIGktzELob6ppV8MIiB_R61Hg4/edit?gid=0#gid=0",
     },
   },
   {
