@@ -81,7 +81,7 @@ const enterHandler = () => {
     } else {
       const shortcutDetails = shortcuts
         .flatMap((c) => Object.entries(c.items))
-        .find(([i]) => i.toLowerCase().startsWith(userInput));
+        .find(([i]) => i.toLowerCase().startsWith(input.innerText));
       if (shortcutDetails) {
         render(`Redirecting to ${shortcutDetails[0]}...`);
         window.location.href = shortcutDetails[1];
