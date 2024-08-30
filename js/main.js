@@ -86,7 +86,7 @@ const enterHandler = () => {
         render(`Redirecting to ${shortcutDetails[0]}...`);
         window.location.href = shortcutDetails[1];
       } else {
-        window.location.href=`https://www.google.com/search?q=${input.innerText}`;
+        window.location.href = `https://www.google.com/search?q=${input.innerText}`;
       }
     }
   } catch (e) {
