@@ -34,7 +34,7 @@ export default [
         "https://phenompeople.atlassian.net/jira/dashboards/19991",
       "Active Projects":
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
-      Smartsheets: "https://app.smartsheet.com/b/home",
+      Smartsheet: "https://app.smartsheet.com/b/home",
     },
   },
   {
