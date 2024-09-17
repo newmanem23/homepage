@@ -9,7 +9,7 @@ export default [
       "Platform Engineering":
         "https://phenompeople.atlassian.net/wiki/spaces/PIE/overview?homepageId=549454628",
       Community: "https://community.phenom.com/kb",
-      LMS: "https://explorer.phenom.com/learn/learning-plans/73/si-partner-technical-implementation-manager-onboarding",
+      LMS: "https://explorer.phenom.com/partner",
     },
   },
   {
