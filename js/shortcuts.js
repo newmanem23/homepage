@@ -35,6 +35,7 @@ export default [
       "Active Projects":
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
       Smartsheet: "https://app.smartsheet.com/b/home",
+      "Color Picker": "https://newmanem23.github.io/color_picker/",
     },
   },
   {
