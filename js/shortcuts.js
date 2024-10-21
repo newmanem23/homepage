@@ -3,13 +3,15 @@ export default [
     category: "Phenom",
     color: "cyan",
     items: {
-      Production: "http://login.phenom.com/",
-      Staging: "https://login-stg.phenompro.com/",
       "API Config": "https://servicehub.phenom.com/apiconfig/tenants",
       "Platform Engineering":
         "https://phenompeople.atlassian.net/wiki/spaces/PIE/overview?homepageId=549454628",
+      CMS: "https://cms.phenompro.com/",
       Community: "https://community.phenom.com/kb",
+      Forms: "https://flowstudio.phenom.com/forms/",
       LMS: "https://explorer.phenom.com/partner",
+      Production: "http://login.phenom.com/",
+      Staging: "https://login-stg.phenompro.com/",
     },
   },
   {
