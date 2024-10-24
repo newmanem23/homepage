@@ -38,6 +38,8 @@ export default [
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
       Smartsheet: "https://app.smartsheet.com/b/home",
       "Color Picker": "https://newmanem23.github.io/color_picker/",
+      "Air Canada Jira":
+        "https://aircanada.atlassian.net/jira/projects?page=1&sortKey=name&sortOrder=ASC&types=software%2Cbusiness",
     },
   },
   {
