@@ -39,7 +39,7 @@ export default [
       Smartsheet: "https://app.smartsheet.com/b/home",
       "Color Picker": "https://newmanem23.github.io/color_picker/",
       "Air Canada Jira":
-        "https://aircanada.atlassian.net/jira/projects?page=1&sortKey=name&sortOrder=ASC&types=software%2Cbusiness",
+        "https://aircanada.atlassian.net/jira/dashboards/17049",
     },
   },
   {
