@@ -33,7 +33,7 @@ export default [
       Confluence: "https://talentexp.atlassian.net/wiki/home",
       ChatGPT: "https://chatgpt.com/?oai-dm=1",
       "Jira Dashboard":
-        "https://phenompeople.atlassian.net/issues/?filter=49260",
+        "https://phenompeople.atlassian.net/jira/dashboards/20149",
       "Active Projects":
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
       Smartsheet: "https://app.smartsheet.com/b/home",
