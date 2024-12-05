@@ -1,7 +1,7 @@
 export default [
   {
     category: "Phenom",
-    color: "cyan",
+    color: "green",
     items: {
       "API Config": "https://servicehub.phenom.com/apiconfig/tenants",
       "Platform Engineering":
@@ -44,7 +44,7 @@ export default [
   },
   {
     category: "Fun Stuff",
-    color: "purple",
+    color: "red",
     items: {
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
