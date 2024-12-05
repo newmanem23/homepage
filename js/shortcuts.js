@@ -44,7 +44,7 @@ export default [
   },
   {
     category: "Fun Stuff",
-    color: "red",
+    color: "purple",
     items: {
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
