@@ -9,6 +9,7 @@ export default [
       CMS: "https://cms.phenompro.com/",
       Community: "https://community.phenom.com/kb",
       Forms: "https://flowstudio.phenom.com/forms/",
+      "Flow Studio": "https://flowstudio.phenom.com/integrations/tenants",
       LMS: "https://explorer.phenom.com/partner",
       Production: "http://login.phenom.com/",
       Staging: "https://login-stg.phenompro.com/",
