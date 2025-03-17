@@ -41,6 +41,7 @@ export default [
       "Color Picker": "https://newmanem23.github.io/color_picker/",
       "Air Canada Jira":
         "https://aircanada.atlassian.net/jira/dashboards/17049",
+      Fireflies: "https://app.fireflies.ai/",
     },
   },
   {
