@@ -32,7 +32,6 @@ export default [
       Drive:
         "https://drive.google.com/drive/u/0/folders/1t9YxjuXc7XKXZ1up7_3aM687SZZRoJS6?ths=true",
       Confluence: "https://talentexp.atlassian.net/wiki/home",
-      ChatGPT: "https://chatgpt.com/?oai-dm=1",
       "Jira Dashboard":
         "https://phenompeople.atlassian.net/jira/dashboards/20149",
       "Active Projects":
