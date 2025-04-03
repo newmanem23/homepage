@@ -45,6 +45,7 @@ export default [
     category: "Fun Stuff",
     color: "purple",
     items: {
+      Phillies: "https://www.mlb.com/phillies",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
       MgoBlog: "https://mgoblog.com",

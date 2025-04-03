@@ -1,0 +1,11 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "An iTerm-inspired startpage page for faster web browsing. Because everything's better on the command line!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
