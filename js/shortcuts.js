@@ -19,6 +19,7 @@ export default [
     category: "Professional Development",
     color: "yellow",
     items: {
+      "Digital Ocean": "https://cloud.digitalocean.com/projects/",
       Github: "https://github.com",
       "Odin Project": "https://www.theodinproject.com/dashboard",
       "Frontend Masters": "https://frontendmasters.com/dashboard/",
