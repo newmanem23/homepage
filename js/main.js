@@ -100,7 +100,7 @@ const isCharacter = (char) => {
 };
 
 window.addEventListener("load", () => {
-  executors.ls();
+  // executors.ls();
   let filenames = ["firefox.jpg"];
   let root = document.getElementsByTagName("html")[0];
   root.style.backgroundImage = `url("./backgrounds/${
