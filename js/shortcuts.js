@@ -13,6 +13,7 @@ export default [
       LMS: "https://explorer.phenom.com/partner",
       Production: "http://login.phenom.com/",
       Staging: "https://login-stg.phenompro.com/",
+      "Service Hub": "https://servicehub.phenom.com/accounts",
     },
   },
   {
