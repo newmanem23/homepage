@@ -41,6 +41,8 @@ export default [
       Smartsheet: "https://app.smartsheet.com/b/home",
       "Color Picker": "https://newmanem23.github.io/color_picker/",
       Fireflies: "https://app.fireflies.ai/",
+      Workday:
+        "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html",
     },
   },
   {
