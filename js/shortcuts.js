@@ -37,7 +37,7 @@ export default [
       "Jira Dashboard":
         "https://phenompeople.atlassian.net/jira/dashboards/20149",
       "Active Projects":
-        "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1294137478#gid=1294137478",
+        "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1181390404#gid=1181390404",
       Smartsheet: "https://app.smartsheet.com/b/home",
       "Color Picker": "https://newmanem23.github.io/color_picker/",
       Fireflies: "https://app.fireflies.ai/",
