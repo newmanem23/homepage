@@ -60,6 +60,7 @@ export default [
       "Newman Wordle":
         "https://docs.google.com/spreadsheets/d/1T99BdVtCdP4_ySerAjWei5tIUFdnANIimp1rDYf5PQ8/edit?gid=1613222831#gid=1613222831",
       Crossword: "https://downforacross.com/",
+      "Speed Test": "https://www.speedtest.net/",
     },
   },
 ];
