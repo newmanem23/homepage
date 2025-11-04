@@ -62,7 +62,7 @@ export default [
         "https://247sports.com/college/michigan/Board/The-Victors-Club-102410",
       "Newman Wordle":
         "https://docs.google.com/spreadsheets/d/1T99BdVtCdP4_ySerAjWei5tIUFdnANIimp1rDYf5PQ8/edit?gid=1613222831#gid=1613222831",
-      Crossword: "https://downforacross.com/",
+      Crossword: "https://www.crosswithfriends.com/",
       "Speed Test": "https://www.speedtest.net/",
     },
   },
