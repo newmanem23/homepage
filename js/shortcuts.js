@@ -25,6 +25,7 @@ export default [
       "Odin Project": "https://www.theodinproject.com/dashboard",
       "Frontend Masters": "https://frontendmasters.com/dashboard/",
       LinkedIn: "https://www.linkedin.com",
+      Docusign: "https://apps.docusign.com/send/home",
     },
   },
   {
