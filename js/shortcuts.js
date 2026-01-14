@@ -58,6 +58,7 @@ export default [
       Phillies: "https://www.mlb.com/phillies",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
+      "Monkey Type": "https://monkeytype.com/",
       MgoBlog: "https://mgoblog.com",
       "Victors Club":
         "https://247sports.com/college/michigan/Board/The-Victors-Club-102410",
