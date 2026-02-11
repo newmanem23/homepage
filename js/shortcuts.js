@@ -41,7 +41,8 @@ export default [
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1181390404#gid=1181390404",
       "Knowledge Base":
         "https://talentexp.atlassian.net/wiki/spaces/TKB/overview",
-      Smartsheet: "https://app.smartsheet.com/b/home",
+      Smartsheet:
+        "https://app.smartsheet.com/reports/P4x79VwwVfwX2m5QCG3PgwWgRppMJff6HHJfP7g1?view=grid",
       "Color Picker": "https://newmanem23.github.io/color_picker/",
       Fireflies: "https://app.fireflies.ai/",
       Workday:
@@ -58,7 +59,7 @@ export default [
       Phillies: "https://www.mlb.com/phillies",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
-      "Monkeytype": "https://monkeytype.com/",
+      Monkeytype: "https://monkeytype.com/",
       MgoBlog: "https://mgoblog.com",
       "Victors Club":
         "https://247sports.com/college/michigan/Board/The-Victors-Club-102410",
