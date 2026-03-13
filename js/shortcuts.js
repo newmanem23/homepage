@@ -47,7 +47,6 @@ export default [
       Fireflies: "https://app.fireflies.ai/",
       Workday:
         "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html",
-      Calendar: "https://calendar.google.com/calendar/u/0/r",
     },
   },
   {
