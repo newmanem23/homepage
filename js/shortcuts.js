@@ -53,6 +53,7 @@ export default [
     category: "Fun Stuff",
     color: "purple",
     items: {
+      apnews: "https://apnews.com",
       Amazon: "https://www.amazon.com/",
       "The Score": "https://www.thescore.com/",
       Phillies: "https://www.mlb.com/phillies",
