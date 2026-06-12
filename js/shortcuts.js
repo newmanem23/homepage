@@ -36,7 +36,7 @@ export default [
         "https://drive.google.com/drive/u/0/folders/1t9YxjuXc7XKXZ1up7_3aM687SZZRoJS6?ths=true",
       Confluence: "https://talentexp.atlassian.net/wiki/home",
       "Jira Dashboard":
-        "https://phenompeople.atlassian.net/jira/dashboards/20149",
+        "https://talentexp.atlassian.net/jira/software/c/projects/TXPHUB/boards/67?assignee=712020%3A4cf38abd-453a-497b-a4b4-fcee126e614b",
       "Active Projects":
         "https://docs.google.com/spreadsheets/d/1-e1Vy1qpcAMOdH7jokes7G6-uIPgdR2y06G7nihgCeI/edit?gid=1181390404#gid=1181390404",
       "Knowledge Base":
