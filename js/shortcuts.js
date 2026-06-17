@@ -14,6 +14,7 @@ export default [
       Production: "http://login.phenom.com/",
       Staging: "https://login-stg.phenompro.com/",
       "Service Hub": "https://servicehub.phenom.com/accounts",
+      "Phenom Jira": "https://phenompeople.atlassian.net/jira/dashboards/20149",
     },
   },
   {
