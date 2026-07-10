@@ -4,17 +4,18 @@ export default [
     color: "green",
     items: {
       "API Config": "https://servicehub.phenom.com/apiconfig/tenants",
+      "Flow Studio": "https://flowstudio.phenom.com/integrations/tenants",
+      "HRIT Hub": "https://hrithub.phenom.com/",
+      "Phenom Jira": "https://phenompeople.atlassian.net/jira/dashboards/20149",
       "Platform Engineering":
         "https://phenompeople.atlassian.net/wiki/spaces/PIE/overview?homepageId=549454628",
       CMS: "https://cms.phenompro.com/",
       Community: "https://community.phenom.com/kb",
       Forms: "https://flowstudio.phenom.com/forms/",
-      "Flow Studio": "https://flowstudio.phenom.com/integrations/tenants",
       LMS: "https://explorer.phenom.com/partner",
+      Onboarding: "https://onboarding.phenom.com/",
       Production: "http://login.phenom.com/",
       Staging: "https://login-stg.phenompro.com/",
-      "HRIT Hub": "https://hrithub.phenom.com/",
-      "Phenom Jira": "https://phenompeople.atlassian.net/jira/dashboards/20149",
     },
   },
   {
