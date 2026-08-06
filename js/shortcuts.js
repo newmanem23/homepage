@@ -57,7 +57,6 @@ export default [
     items: {
       apnews: "https://apnews.com",
       Amazon: "https://www.amazon.com/",
-      "The Score": "https://www.thescore.com/",
       Phillies: "https://www.mlb.com/phillies",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
