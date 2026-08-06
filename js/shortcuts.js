@@ -24,7 +24,6 @@ export default [
     items: {
       "Digital Ocean": "https://cloud.digitalocean.com/projects/",
       Github: "https://github.com",
-      "Odin Project": "https://www.theodinproject.com/dashboard",
       "Frontend Masters": "https://frontendmasters.com/dashboard/",
       LinkedIn: "https://www.linkedin.com",
       Docusign: "https://apps.docusign.com/send/home",
