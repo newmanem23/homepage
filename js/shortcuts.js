@@ -45,7 +45,6 @@ export default [
         "https://talentexp.atlassian.net/wiki/spaces/TKB/overview",
       Smartsheet:
         "https://app.smartsheet.com/reports/P4x79VwwVfwX2m5QCG3PgwWgRppMJff6HHJfP7g1?view=grid",
-      "Color Picker": "https://newmanem23.github.io/color_picker/",
       Fireflies: "https://app.fireflies.ai/",
       Workday:
         "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html",
