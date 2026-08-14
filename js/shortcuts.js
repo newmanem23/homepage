@@ -16,7 +16,7 @@ export default [
       Onboarding: "https://onboarding.phenom.com/",
       Production: "http://login.phenom.com/",
       Staging: "https://login-stg.phenompro.com/",
-      "Release Notes":
+      "Phenom Release Notes":
         "https://drive.google.com/drive/project/1gKvK-_97JYwkw5SIPiRWvC1laaNtoYrM",
     },
   },
