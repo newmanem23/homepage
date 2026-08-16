@@ -60,6 +60,7 @@ export default [
       Phillies: "https://www.mlb.com/phillies",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://www.reddit.com",
+      Maps: "https://google.com/maps",
       Monkeytype: "https://monkeytype.com/",
       MgoBlog: "https://mgoblog.com",
       "Victors Club":
