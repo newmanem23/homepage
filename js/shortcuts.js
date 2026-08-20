@@ -37,7 +37,6 @@ export default [
     items: {
       Drive:
         "https://drive.google.com/drive/u/0/folders/1t9YxjuXc7XKXZ1up7_3aM687SZZRoJS6?ths=true",
-      Confluence: "https://talentexp.atlassian.net/wiki/home",
       "Jira Dashboard":
         "https://talentexp.atlassian.net/jira/software/c/projects/TXPHUB/boards/67?assignee=712020%3A4cf38abd-453a-497b-a4b4-fcee126e614b",
       "Active Projects":
